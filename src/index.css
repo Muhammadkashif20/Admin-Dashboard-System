@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+.premium-input {
+  height: 50px !important;
+  border-radius: 16px !important;
+  border: 1px solid #E5E7EB !important;
+  background: #F9FAFB !important;
+  box-shadow: none !important;
+}
+
+.premium-input input {
+  background: transparent !important;
+}
+
+.premium-input:hover,
+.premium-input:focus,
+.premium-input-focused {
+  border-color: #6366F1 !important;
+  background: white !important;
+}
+
+.ant-input-password-icon {
+  color: #9CA3AF !important;
+}
